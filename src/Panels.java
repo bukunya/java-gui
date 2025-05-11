@@ -24,6 +24,10 @@ public class Panels {
         blueLabel.setHorizontalAlignment(JLabel.CENTER);
         blueLabel.setVerticalAlignment(JLabel.CENTER);
 
+        JLabel greenLabel = new JLabel();
+        greenLabel.setBounds(20,50,200,100);
+        greenLabel.setText("hello howayu ayem under de wader plis help mi");
+
         JPanel redPanel = new JPanel();
         redPanel.setBounds(0,0,250,250);
         redPanel.setBackground(Color.red);
@@ -39,6 +43,8 @@ public class Panels {
         JPanel greenPanel = new JPanel();
         greenPanel.setBounds(0,250,500,250);
         greenPanel.setBackground(Color.green);
+        greenPanel.setLayout(null);
+        greenPanel.add(greenLabel);
 
         frame.setVisible(true);
         frame.setTitle("RGB");
