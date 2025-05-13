@@ -17,6 +17,9 @@ class MyFrame2 extends JFrame implements ActionListener {
 
         textField = new JTextField();
         textField.setPreferredSize(new Dimension(250,40));
+        textField.setCaretColor(Color.green);
+        textField.setText("Username");
+//        textField.setEditable(false);
 
         this.add(button);
         this.add(textField);
